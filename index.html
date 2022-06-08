@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="https://megacode.vn/media/files/aimages/2014_03/2014_03_06/bua-phai.jpg" type="image/x-icon" />
+    <script src="./index.js"></script>
+    <title>Kéo búa bao</title>
+</head>
+<body>
+    <div class="grid">
+        <header class="row header">
+            <h1 class="col l-6 m-6 c-6" id="user1">
+                <i id ="name" class="ti-user"></i> 
+                <span> You </span> 
+            </h1>
+    
+            <h1 class="col l-6 m-6 c-6" id="user2">
+                <i class="ti-user"></i> 
+                <span> Competitor </span> 
+            </h1>
+        </header>
+    
+        <div class="row container">
+            <div class="col br-color-green img-player l-5 m-5 c-6">
+                <img id ="myPicture" src="./assets/img/bao.jpg" alt="">
+            </div>
+            <!-- <div class="col l-2 m-2 c-12"></div> -->
+            <div class="col br-color-red img-player l-5 m-5 c-6">
+                <img id ="competitorPicture" src="./assets/img/bua.jpg" alt="">
+            </div>
+        </div>
+    
+        <footer class="row footer">
+            <button class="col btn keoBtn l-3 m-5 c-12" type="button" onclick="firstFunction(1)">Kéo</button>
+            <button class="col btn buaBtn l-3 m-5 c-12" type="button" onclick="firstFunction(2)">Búa</button>
+            <button class="col btn baoBtn l-3 m-5 c-12" type="button" onclick="firstFunction(3)">Bao</button>
+        </footer>
+    </div>
+</body>
+</html>
