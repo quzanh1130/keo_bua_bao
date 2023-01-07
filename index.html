@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
-    <link rel="icon" href="https://megacode.vn/media/files/aimages/2014_03/2014_03_06/bua-phai.jpg" type="image/x-icon" />
-    <script src="./index.js"></script>
+    <link rel="icon" href="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/d0/fa/f1/d0faf16f-5b2e-e39d-2be3-67961cf80fd8/source/512x512bb.jpg" type="image/x-icon" />
+    
     <title>Kéo búa bao</title>
 </head>
 <body>
+    
     <div class="grid">
         <header class="row header">
             <h1 class="col l-6 m-6 c-6" id="user1">
@@ -30,11 +31,23 @@
         </header>
     
         <div class="row container">
-            <div class="col br-color-green img-player l-5 m-5 c-6">
+            <div class="col br-color-green img-player l-4 m-4 c-6">
                 <img id ="myPicture" src="./assets/img/bao.jpg" alt="">
             </div>
-            <!-- <div class="col l-2 m-2 c-12"></div> -->
-            <div class="col br-color-red img-player l-5 m-5 c-6">
+
+            <div class="result col l-2 m-0 c-0 "> 
+                <div class="result-container">
+                    <div class="result-container_img-vs">
+                        <img src="http://cdn.onlinewebfonts.com/svg/img_418591.png" alt="">
+                    </div>
+                    <div class="result-container_vs">
+                        <span class="player_one" id="player_one">0</span>
+                        <span class="player_two" id="player_two">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col br-color-red img-player l-4 m-4 c-6">
                 <img id ="competitorPicture" src="./assets/img/bua.jpg" alt="">
             </div>
         </div>
@@ -45,5 +58,7 @@
             <button class="col btn baoBtn l-3 m-5 c-12" type="button" onclick="firstFunction(3)">Bao</button>
         </footer>
     </div>
+    <script src="./index.js"></script>
+    
 </body>
 </html>
